@@ -1,7 +1,7 @@
 class Solution:
-    def isVowel(self,c):
-        #vowels in english
-        if(c == 'a' or c=='e' or c=='i' or c=='o' or c=='u'):
+    def isVowel(self,d):
+        '''This checks if the letter is vowel'''
+        if(d == 'a' or d=='e' or d=='i' or d=='o' or d=='u'):
             return True
         else:
             return False
